@@ -1,0 +1,26 @@
+/* sections */
+.section {
+  padding: 70px 10px;
+}
+
+.section .section-title {
+  font-size: calc(20px + (35 - 20) * ((100vw - 300px) / (1300 - 300)));
+}
+
+.section .section-subtitle {
+  margin-bottom: 6px;
+  font-weight: 400;
+  opacity: 0.6;
+}
+
+.section-sm {
+  padding: 40px 0 !important;
+}
+
+.section-md {
+  padding: 60px 0 !important;
+}
+
+.section-lg {
+  padding: 100px 0 !important;
+}
