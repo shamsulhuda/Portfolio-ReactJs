@@ -1,6 +1,18 @@
 import React from "react";
 
 export default function About() {
+  const handleDownload = () => {
+    const pdfUrl =
+      "https://drive.google.com/uc?export=download&id=1gIEKw2TNT9hcOrrVi2XMdC0nQuYgoemx";
+
+    // Create a temporary anchor element to trigger the download
+    const link = document.createElement("a");
+    link.href = pdfUrl;
+    link.download = "downloaded-file.pdf";
+
+    // Trigger a click event on the anchor to initiate the download
+    link.click();
+  };
   return (
     <div className="section pt-0" id="about">
       <div className="container text-center">
@@ -29,7 +41,10 @@ export default function About() {
               well-versed in the tools and technologies that can make your
               e-commerce venture a success.
             </p>
-            <button className="btn-rounded btn btn-outline-primary mt-4">
+            <button
+              className="btn-rounded btn btn-outline-primary mt-4"
+              onClick={handleDownload}
+            >
               Download CV
             </button>
           </div>

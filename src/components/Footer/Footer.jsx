@@ -1,6 +1,14 @@
 import React from "react";
+import {
+  TfiFacebook,
+  TfiGoogle,
+  TfiInstagram,
+  TfiPinterest,
+  TfiRss,
+  TfiTwitter,
+} from "react-icons/tfi";
 import { Link } from "react-router-dom";
-
+import "./Footer.css";
 export default function Footer() {
   return (
     <div className="container">
@@ -12,22 +20,22 @@ export default function Footer() {
         </p>
         <div className="social-links text-right m-auto ml-sm-auto">
           <Link to="#!" className="link">
-            <i className="ti-facebook"></i>
+            <TfiFacebook></TfiFacebook>
           </Link>
           <Link to="#!" className="link">
-            <i className="ti-twitter-alt"></i>
+            <TfiTwitter></TfiTwitter>
           </Link>
           <Link to="#!" className="link">
-            <i className="ti-google"></i>
+            <TfiGoogle></TfiGoogle>
           </Link>
           <Link to="#!" className="link">
-            <i className="ti-pinterest-alt"></i>
+            <TfiPinterest></TfiPinterest>
           </Link>
           <Link to="#!" className="link">
-            <i className="ti-instagram"></i>
+            <TfiInstagram></TfiInstagram>
           </Link>
           <Link to="#!" className="link">
-            <i className="ti-rss"></i>
+            <TfiRss></TfiRss>
           </Link>
         </div>
       </footer>
