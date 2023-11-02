@@ -32,7 +32,7 @@ export default function Testimonial() {
               <div className="testimonial-card">
                 <div className="testimonial-card-img-holder">
                   <img
-                    src="/assets/imgs/avatar2.jpg"
+                    src="/assets/imgs/client-joe-marcho.jpg"
                     className="testimonial-card-img"
                     alt="testimonial"
                   />
@@ -42,31 +42,11 @@ export default function Testimonial() {
                     I highly recommend this guy if you are looking for a
                     talented and reliable freelancer on Upwork. He has the
                     skills and experience you need to complete your project, and
-                    he is always willing to go the extra mile. Thanks, Shamsul
-                    for your hard work! I would definitely work with you again
-                    in the future :)
+                    he is always willing to go the extra mile.
                   </p>
-                  <h6 className="testimonial-card-title">Richard Daniel</h6>
-                </div>
-              </div>
-              <div className="testimonial-card">
-                <div className="testimonial-card-img-holder">
-                  <img
-                    src="/assets/imgs/avatar3.jpg"
-                    className="testimonial-card-img"
-                    alt="testimonial"
-                  />
-                </div>
-                <div className="testimonial-card-body">
-                  <p className="testimonial-card-subtitle">
-                    I highly recommend this guy if you are looking for a
-                    talented and reliable freelancer on Upwork. He has the
-                    skills and experience you need to complete your project, and
-                    he is always willing to go the extra mile. Thanks, Shamsul
-                    for your hard work! I would definitely work with you again
-                    in the future :)
-                  </p>
-                  <h6 className="testimonial-card-title">Richard Daniel</h6>
+                  <h6 className="testimonial-card-title">
+                    Jose M. | Senior Staff Advisor
+                  </h6>
                 </div>
               </div>
               <div className="testimonial-card">
@@ -79,14 +59,31 @@ export default function Testimonial() {
                 </div>
                 <div className="testimonial-card-body">
                   <p className="testimonial-card-subtitle">
-                    I highly recommend this guy if you are looking for a
-                    talented and reliable freelancer on Upwork. He has the
-                    skills and experience you need to complete your project, and
-                    he is always willing to go the extra mile. Thanks, Shamsul
-                    for your hard work! I would definitely work with you again
-                    in the future :)
+                    We have been working with Shamsul for several months and
+                    have used his expertise with web development, custom coding,
+                    SEO, and design. Shamsul is an ultimate professional and
+                    conducts himself as such.
                   </p>
                   <h6 className="testimonial-card-title">Richard Daniel</h6>
+                </div>
+              </div>
+              <div className="testimonial-card">
+                <div className="testimonial-card-img-holder">
+                  <img
+                    src="/assets/imgs/avatar3.png"
+                    className="testimonial-card-img"
+                    alt="testimonial"
+                  />
+                </div>
+                <div className="testimonial-card-body">
+                  <p className="testimonial-card-subtitle">
+                    Shamsul is a true wizard! He worked his magic and helped me
+                    recover my product page effortlessly. His skills are
+                    impressive, and the job he did was simply amazing. Im
+                    definitely going to hire him again in the near future.
+                    Thanks, Nazmul!
+                  </p>
+                  <h6 className="testimonial-card-title">Viet Nguyen Dinh</h6>
                 </div>
               </div>
             </Carousel>

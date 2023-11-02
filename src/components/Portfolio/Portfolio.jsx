@@ -8,46 +8,117 @@ export default function Portfolio() {
         <h6 className="section-title mb-6">Portfolio</h6>
         <div className="row">
           <div className="col-md-4">
-            <a href="#" className="portfolio-card">
+            <a
+              href="https://mprtools.com"
+              className="portfolio-card"
+              target="blank"
+            >
               <img
-                src="assets/imgs/folio-1.jpg"
+                src="assets/imgs/port-mprtools.png"
                 className="portfolio-card-img img-responsive rounded"
-                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
+                alt="Shamsul Huda - Shopify theme Developer"
               />
               <span className="portfolio-card-overlay">
                 <span className="portfolio-card-caption">
-                  <h4>Web Designing</h4>
-                  <p className="font-weight-normal">Category: Web Templates</p>
+                  <h4>Fixing Bug</h4>
+                  <p className="font-weight-normal">Category: Bug Fixing</p>
                 </span>
               </span>
             </a>
           </div>
           <div className="col-md-4">
-            <a href="#" className="portfolio-card">
+            <a
+              href="https://kitbox.co"
+              className="portfolio-card"
+              target="blank"
+            >
               <img
                 className="portfolio-card-img img-responsive rounded"
-                src="assets/imgs/folio-2.jpg"
-                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
+                src="assets/imgs/port-kitbox.png"
+                alt="Shamsul Huda - Shopify theme Developer"
               />
               <span className="portfolio-card-overlay">
                 <span className="portfolio-card-caption">
-                  <h4>Web Designing</h4>
-                  <p className="font-weight-normal">Category: Web Templates</p>
+                  <h4>App Integration</h4>
+                  <p className="font-weight-normal">
+                    Category: App Integration
+                  </p>
                 </span>
               </span>
             </a>
           </div>
           <div className="col-md-4">
-            <a href="#" className="portfolio-card">
+            <a
+              href="https://www.madebymary.com/"
+              className="portfolio-card"
+              target="blank"
+            >
               <img
                 className="portfolio-card-img img-responsive rounded"
-                src="assets/imgs/folio-3.jpg"
-                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
+                src="assets/imgs/port-madebymary.png"
+                alt="Shopify theme developer"
               />
               <span className="portfolio-card-overlay">
                 <span className="portfolio-card-caption">
-                  <h4>Web Designing</h4>
-                  <p className="font-weight-normal">Category: Web Templates</p>
+                  <h4>Development</h4>
+                  <p className="font-weight-normal">Category: Development</p>
+                </span>
+              </span>
+            </a>
+          </div>
+          <div className="col-md-4 mt-5">
+            <a
+              href="https://evatac.com.au/"
+              className="portfolio-card"
+              target="blank"
+            >
+              <img
+                className="portfolio-card-img img-responsive rounded"
+                src="assets/imgs/port-evatac.png"
+                alt="Shopify theme developer"
+              />
+              <span className="portfolio-card-overlay">
+                <span className="portfolio-card-caption">
+                  <h4>Fixing Bug</h4>
+                  <p className="font-weight-normal">Category: Bug Fixing</p>
+                </span>
+              </span>
+            </a>
+          </div>
+          <div className="col-md-4 mt-5">
+            <a
+              href="https://www.healthycell.com/"
+              className="portfolio-card"
+              target="blank"
+            >
+              <img
+                className="portfolio-card-img img-responsive rounded"
+                src="assets/imgs/port-healthycell.png"
+                alt="Shopify theme developer"
+              />
+              <span className="portfolio-card-overlay">
+                <span className="portfolio-card-caption">
+                  <h4>Development</h4>
+                  <p className="font-weight-normal">Category: Development</p>
+                </span>
+              </span>
+            </a>
+          </div>
+          <div className="col-md-4 mt-5">
+            <a
+              href="https://www.senitaathletics.com/"
+              className="portfolio-card"
+              target="blank"
+            >
+              <img
+                className="portfolio-card-img img-responsive rounded"
+                src="assets/imgs/port-senita.png"
+                alt="Shopify theme developer"
+              />
+              <span className="portfolio-card-overlay">
+                <span className="portfolio-card-caption">
+                  <h4>Development</h4>
+                  <p className="font-weight-normal">Category: Development</p>
                 </span>
               </span>
             </a>
