@@ -1,3 +1,6 @@
 .footer .social-links a svg {
   vertical-align: inherit;
 }
+.footer .social-links a {
+  margin: 0 5px;
+}

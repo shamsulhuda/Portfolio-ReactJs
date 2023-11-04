@@ -1,10 +1,10 @@
 import React from "react";
 import {
   TfiFacebook,
-  TfiGoogle,
+  TfiGithub,
   TfiInstagram,
+  TfiLinkedin,
   TfiPinterest,
-  TfiRss,
   TfiTwitter,
 } from "react-icons/tfi";
 import { Link } from "react-router-dom";
@@ -13,29 +13,44 @@ export default function Footer() {
   return (
     <div className="container">
       <footer className="footer">
-        <p className="mb-0">
-          Copyright {new Date().getFullYear()} &copy;
-          <Link to="http://www.devcrud.com">DevCRUD</Link>
-          <Link to="https://themewagon.com">ThemeWagon</Link>
-        </p>
+        <p className="mb-0">&copy; Copyright {new Date().getFullYear()}</p>
         <div className="social-links text-right m-auto ml-sm-auto">
-          <Link to="#!" className="link">
+          <Link
+            to="https://github.com/shamsulhuda"
+            target="blank"
+            className="link"
+          >
+            <TfiGithub></TfiGithub>
+          </Link>
+          <Link
+            to="https://www.linkedin.com/in/shamsul-huda99/"
+            target="blank"
+            className="link"
+          >
+            <TfiLinkedin></TfiLinkedin>
+          </Link>
+          <Link
+            to="https://www.facebook.com/shamsulhuda.cse/"
+            target="blank"
+            className="link"
+          >
             <TfiFacebook></TfiFacebook>
           </Link>
-          <Link to="#!" className="link">
+          <Link
+            to="https://twitter.com/m_shamsulhuda"
+            target="blank"
+            className="link"
+          >
             <TfiTwitter></TfiTwitter>
           </Link>
-          <Link to="#!" className="link">
-            <TfiGoogle></TfiGoogle>
-          </Link>
-          <Link to="#!" className="link">
+          <Link
+            to="https://www.pinterest.com/Engr_shamsul_huda/"
+            className="link"
+          >
             <TfiPinterest></TfiPinterest>
           </Link>
-          <Link to="#!" className="link">
+          <Link to="https://www.instagram.com/developer_huda/" className="link">
             <TfiInstagram></TfiInstagram>
-          </Link>
-          <Link to="#!" className="link">
-            <TfiRss></TfiRss>
           </Link>
         </div>
       </footer>
