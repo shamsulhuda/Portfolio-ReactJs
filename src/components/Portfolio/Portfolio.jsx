@@ -9,6 +9,63 @@ export default function Portfolio() {
         <div className="row">
           <div className="col-md-4">
             <a
+              href="https://hitchexpo.com/"
+              className="portfolio-card"
+              target="blank"
+            >
+              <img
+                src="assets/imgs/hitchexpo.png"
+                className="portfolio-card-img img-responsive rounded"
+                alt="Shamsul Huda - Shopify theme Developer"
+              />
+              <span className="portfolio-card-overlay">
+                <span className="portfolio-card-caption">
+                  <h4>Development</h4>
+                  <p className="font-weight-normal">Category: Development</p>
+                </span>
+              </span>
+            </a>
+          </div>
+          <div className="col-md-4">
+            <a
+              href="https://sydneyhaleco.com/"
+              className="portfolio-card"
+              target="blank"
+            >
+              <img
+                src="assets/imgs/sydneyhale.png"
+                className="portfolio-card-img img-responsive rounded"
+                alt="Shamsul Huda - Shopify theme Developer"
+              />
+              <span className="portfolio-card-overlay">
+                <span className="portfolio-card-caption">
+                  <h4>Development</h4>
+                  <p className="font-weight-normal">Category: Development</p>
+                </span>
+              </span>
+            </a>
+          </div>
+          <div className="col-md-4">
+            <a
+              href="https://boieusa.com/"
+              className="portfolio-card"
+              target="blank"
+            >
+              <img
+                src="assets/imgs/boieusa.png"
+                className="portfolio-card-img img-responsive rounded"
+                alt="Shamsul Huda - Shopify theme Developer"
+              />
+              <span className="portfolio-card-overlay">
+                <span className="portfolio-card-caption">
+                  <h4>Development</h4>
+                  <p className="font-weight-normal">Category: Development</p>
+                </span>
+              </span>
+            </a>
+          </div>
+          <div className="col-md-4">
+            <a
               href="https://mprtools.com"
               className="portfolio-card"
               target="blank"

@@ -111,6 +111,9 @@
   padding: 1rem;
   background: #a59cca;
 }
+button:focus {
+  outline: none !important;
+}
 
 @media (max-width: 991.98px) {
   .header {

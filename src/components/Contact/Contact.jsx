@@ -9,7 +9,6 @@ export default function Contact() {
   const message = document.getElementById("confirmation");
   const sendEmail = (e) => {
     e.preventDefault();
-
     emailjs.sendForm(serviceKey, templateKey, e.target, publicKey).then(
       (result) => {
         console.log(result.text);
