@@ -3,7 +3,7 @@ import React from "react";
 export default function About() {
   const handleDownload = () => {
     const pdfUrl =
-      "https://drive.google.com/uc?export=download&id=1gIEKw2TNT9hcOrrVi2XMdC0nQuYgoemx";
+      "https://drive.google.com/uc?export=download&id=13CsrzA5QTY-0yFesdvVPN1r81lEMTsYD";
 
     // Create a temporary anchor element to trigger the download
     const link = document.createElement("a");
